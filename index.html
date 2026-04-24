@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Educational Disney webpage project made with HTML and CSS." />
+
+  <title>Disney Webpage Educational Project</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/logo.png" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="navbar__brand">
+        <img src="images/logo.png" alt="Disney logo" class="navbar__logo">
+      </a>
+
+      <ul class="navbar__menu">
+        <li><a href="#disney-plus">Disney+</a></li>
+        <li><a href="#parks-and-travel">Parks & Travel</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#more">More</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a href="#" class="login">Log In</a>
+        <form class="search">
+          <input type="search" placeholder="Search">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero__content">
+        <img src="images/snow-white.png" alt="Snow White logo" class="hero__logo">
+        <p class="hero__text">Experience Snow White, now playing only in theaters!</p>
+
+        <div class="hero__buttons">
+          <a href="#" class="btn btn--red">Get Tickets Now</a>
+          <a href="#" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="shop-section">
+      <div class="shop-grid">
+        <article class="shop-card">
+          <img src="images/shop-image-1.png" alt="Special performance" class="shop-card__image">
+          <div class="shop-card__body">
+            <h3>A Special Performance</h3>
+            <p>Rachel Zegler performs “Waiting on a Wish” at the Castle.</p>
+            <a href="#">Watch Now</a>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <img src="images/shop-image-2.png" alt="Fairytale fashion" class="shop-card__image">
+          <div class="shop-card__body">
+            <h3>The Art of Fairytale Fashion</h3>
+            <p>Legendary costume designs inspired by Disney magic.</p>
+            <a href="#">Watch Now</a>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <img src="images/shop-image-3.png" alt="Disney store product" class="shop-card__image">
+          <div class="shop-card__body">
+            <h3>Disney Store</h3>
+            <p>Discover limited edition Disney products and gifts.</p>
+            <a href="#">Shop Now</a>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <img src="images/shop-image-4.png" alt="Musical conversation" class="shop-card__image">
+          <div class="shop-card__body">
+            <h3>A Musical Conversation</h3>
+            <p>Discover music, stories, and behind-the-scenes moments.</p>
+            <a href="#">Watch Now</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="disney-plus" class="disney-plus-section">
+      <h2>Explore More Disney+</h2>
+
+      <div class="disney-plus-grid">
+        <article class="plus-card">
+          <img src="images/disney-plus-1.png" alt="Moana 2 on Disney Plus">
+          <p>Moana 2 is now available, only on Disney+.</p>
+          <a href="#">Available on Disney+</a>
+        </article>
+
+        <article class="plus-card">
+          <img src="images/disney-plus-2.png" alt="Daredevil series on Disney Plus">
+          <p>Marvel Television’s series is now streaming on Disney+.</p>
+          <a href="#">Stream Now</a>
+        </article>
+
+        <article class="plus-card">
+          <img src="images/disney-plus-3.png" alt="Next on Disney Plus">
+          <p>Everything new coming to Disney+ this month.</p>
+          <a href="#">Learn More</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="movies" class="movies-section">
+      <h2>Coming Soon to Disney+</h2>
+
+      <div class="movies-grid">
+        <article class="movie-card">
+          <img src="images/movies-1.jpeg" alt="Disney movie poster">
+          <h3>Alexander and the Terrible...</h3>
+          <p>Streaming March 28, 2025</p>
+        </article>
+
+        <article class="movie-card">
+          <img src="images/movies-2.jpeg" alt="Andor movie poster">
+          <h3>Andor Season 2</h3>
+          <p>Streaming April 22, 2025</p>
+        </article>
+
+        <article class="movie-card">
+          <img src="images/movies-3.jpeg" alt="Ironheart movie poster">
+          <h3>Ironheart</h3>
+          <p>Streaming June 24, 2025</p>
+        </article>
+
+        <article class="movie-card">
+          <img src="images/movies-4.jpeg" alt="Percy Jackson poster">
+          <h3>Percy Jackson Season 2</h3>
+          <p>Coming Soon</p>
+        </article>
+
+        <article class="movie-card">
+          <img src="images/movies-5.jpeg" alt="The Doomies poster">
+          <h3>The Doomies</h3>
+          <p>Coming Soon</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="parks-and-travel" class="parks-section">
+      <h2>Vacation with Disney Parks</h2>
+
+      <div class="parks-grid">
+        <article class="park-card">
+          <img src="images/disney-parks-1.png" alt="Disneyland resort room">
+          <div class="park-card__body">
+            <h3>Disneyland® Resort</h3>
+            <p>Save up to 20% on select stays at a Disneyland Resort hotel.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </article>
+
+        <article class="park-card">
+          <img src="images/disney-parks-2.png" alt="Disneyland family vacation">
+          <div class="park-card__body">
+            <h3>Disneyland® Resort</h3>
+            <p>Book early and save on select stays during a Disneyland celebration.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="more" class="more-section">
+      <div class="more__image">
+        <img src="images/more-background.jpeg" alt="Disney credit cards">
+      </div>
+
+      <div class="more__content">
+        <h2>Get More Disney Every Day</h2>
+
+        <h3>Special Offer</h3>
+        <p>Earn a statement credit with Disney rewards.</p>
+
+        <h3>Special Vacation Financing</h3>
+        <p>Enjoy promotional financing on select Disney vacation packages.</p>
+
+        <a href="#" class="btn btn--purple">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="images/logo.png" alt="Disney logo" class="footer__logo">
+
+    <ul class="footer__links">
+      <li><a href="#">About Disney</a></li>
+      <li><a href="#">Disney Help</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Advertise With Us</a></li>
+    </ul>
+
+    <p>© 2025 Disney Educational Project. This website is for academic purposes only.</p>
+  </footer>
+</body>
+</html>
